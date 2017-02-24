@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      {{ 'TITLE' | translate }}
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -9,7 +9,7 @@
   <ion-content class="calculator">
     <div>
         <label>
-            <input class="result" type="text" placeholder="Math Goes Here" value="{{ result }}"/>
+            <input class="result" type="text" placeholder="{{ 'LABELPH' | translate }}" value="{{ result }}"/>
         </label>
     </div>
     <div class="mainc">
